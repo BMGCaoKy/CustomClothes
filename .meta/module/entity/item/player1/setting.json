@@ -1,0 +1,61 @@
+{
+  "data": {
+    "_clientScript": [
+      {
+        "path": "client/client_script"
+      }
+    ],
+    "_serverScript": [
+      {
+        "path": "server/server_script"
+      }
+    ],
+    "actorModel": {
+      "actorName": {
+        "selector": "editor/newcode/asset/Actor/charactor/charactor_boy/character_boy.actor"
+      },
+      "girlactor": {
+        "asset": ""
+      },
+      "modelType": "Customize"
+    },
+    "AI_attack": {
+      "enable": true
+    },
+    "AI_patrol": {
+      "patrolMode": "randomPath"
+    },
+    "boundingVolume": {
+      "height": 1.7,
+      "radius": 0.43,
+      "type": "Capsule"
+    },
+    "canClick": true,
+    "canRevive": true,
+    "deadAction": {
+      "deathHideTime": {
+        "value": 60
+      },
+      "playDeadAction": "die_front"
+    },
+    "equip": [
+      "1",
+      "2"
+    ],
+    "hideHp": false,
+    "isPlayer": true,
+    "name": {
+      "value": "bbfbdc34-da2f-41ab-aaac-3b2e72f5ef6d"
+    },
+    "reviveTime": {
+      "value": 40
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "3706c031135c09198eab1abe1e4eb281",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}
